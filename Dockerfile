@@ -1,4 +1,4 @@
-FROM python:3-slim-buster
+FROM python:3.7.9-slim-buster
 
 RUN ln -snf /usr/share/zoneinfo/Europe/Berlin /etc/localtime && \
     echo "Europe/Berlin" > /etc/timezone
